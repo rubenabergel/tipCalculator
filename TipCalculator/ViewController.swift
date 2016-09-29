@@ -45,14 +45,11 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        print("view will appear")
         initTips()
     }
     
     @IBAction func onTap(_ sender: AnyObject) {
         view.endEditing(true)
-        print("lalalalala")
     }
     
     @IBAction func calculateTip(_ sender: AnyObject) {

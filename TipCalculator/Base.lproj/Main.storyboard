@@ -198,6 +198,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                     </view>
                     <connections>
                         <outlet property="firstTipField" destination="pZ5-m8-0f4" id="BDX-1y-pHI"/>
@@ -207,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oNh-IC-Txb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1732" y="138.98050974512745"/>
+            <point key="canvasLocation" x="1911" y="125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sAE-GW-kRf">

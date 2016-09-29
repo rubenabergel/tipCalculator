@@ -65,6 +65,7 @@ class SettingsViewController: UIViewController {
         defaults.synchronize()
     }
     
+
     /*
     // MARK: - Navigation
 

@@ -46,6 +46,7 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         initTips()
+        billField.becomeFirstResponder()
     }
     
     @IBAction func onTap(_ sender: AnyObject) {

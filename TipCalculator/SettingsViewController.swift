@@ -39,6 +39,7 @@ class SettingsViewController: UIViewController {
         }else{
             thirdTipField.text = "20"
         }
+        firstTipField.becomeFirstResponder()
         
     }
 
